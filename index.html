@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Capitales del Mundo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="juego">
+        <h1>Juego de Capitales del Mundo</h1>
+        <div id="pregunta-container">
+            <p id="pregunta"></p>
+            <div id="opciones">
+                <button class="opcion" onclick="seleccionarRespuesta(0)"></button>
+                <button class="opcion" onclick="seleccionarRespuesta(1)"></button>
+                <button class="opcion" onclick="seleccionarRespuesta(2)"></button>
+                <button class="opcion" onclick="seleccionarRespuesta(3)"></button>
+            </div>
+            <p id="resultado"></p>
+        </div>
+        <button id="siguiente" onclick="siguientePregunta()">Siguiente</button>
+        <p id="puntaje"></p>
+    </div>
+    <script src="pro.js"></script>
+</body>
+</html>
